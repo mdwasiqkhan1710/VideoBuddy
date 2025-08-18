@@ -25,17 +25,17 @@ const PORT = process.env.PORT || 8000;
 //     res.send("Welcome to VideoBuddy!");
 // });
 
-//User Route 
+//User Route
 app.use("/api/v1/users", userRoutes);
 
 io.on("connection", (socket) => {
   console.log("Client connected:", socket.id);
-  
+
   socket.on("disconnect", () => {
     console.log("Client disconnected:", socket.id);
   });
 });
 
-server.listen(PORT, ()=>{
-    console.log(`Server is listening to ${PORT}`);
+server.listen(PORT, () => {
+  console.log(`Server is listening to ${PORT}`);
 });
