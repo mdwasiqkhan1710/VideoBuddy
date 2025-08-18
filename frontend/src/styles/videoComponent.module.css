@@ -1,0 +1,105 @@
+.meetVideoContainer {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(1, 2, 59);
+}
+
+.meetUserVideo {
+  position: absolute;
+  bottom: 10vh;
+  height: 25vh;
+  width: auto;
+  left: 0;
+  border-radius: 20px;
+}
+
+.buttonContainers {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+}
+
+.buttonContainers svg {
+  font-size: 2.75rem;
+}
+
+.conferenceView {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+}
+
+.conferenceView video {
+  width: 40vw;
+  height: 50vh;
+  min-width: 30vw;
+  border-radius: 10px;
+}
+
+.chatRoom {
+  position: absolute;
+  height: 100vh;
+  right: 0;
+  background: white;
+  border-radius: 2px;
+  width: 30vw;
+  padding-inline: 20px;
+}
+
+.chatContainer {
+  position: relative;
+  height: 100%;
+}
+
+.chattingArea {
+  position: absolute;
+  bottom: 5px;
+}
+
+.chatbox {
+  margin-bottom: 1rem !important;
+  margin-right: 0.5rem !important;
+  width: 21rem !important;
+}
+
+.chatsendButton {
+  margin-bottom: 1rem !important;
+  height: 3rem;
+  width: 2.2rem;
+  height: 1orem;
+}
+
+.lobby {
+  background-image: url("../../public/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: azure;
+  height: 100vh;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.Lobbyheading {
+  font-size: xx-large;
+  margin: 0.8rem;
+  color: #d97500;
+}
+
+.Lobbyusername {
+  width: 20rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-left: 0.5rem;
+}
+
+.Lobbyconnectbtn {
+  background-color: #d97500 !important;
+  color: azure !important;
+  font-weight: 700 !important;
+  margin-left: 1.2rem !important;
+}
